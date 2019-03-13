@@ -1,0 +1,6 @@
+az login
+az group create -n scotia-serverless-app -l canadacentral
+az storage account create -n scotia-storage -g scotia-serverless-app --kind StorageV2 -l canadacentral --https-only true --sku Standard_LRS
+az signout
+az logout
+az account list

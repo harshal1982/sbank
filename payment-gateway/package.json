@@ -1,0 +1,15 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "converge payment api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "converge-lib": "^1.0.6",
+    "request": "^2.88.0"
+  }
+}
